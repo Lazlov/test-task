@@ -1,0 +1,27 @@
+.container{
+    position:fixed;
+    display: none;
+    height: 100%;
+    top:0;
+    left:0;
+    right:0;
+    left:0;
+    background:rgb(0,0,0, 0.5);
+    
+}
+
+.container-content{
+    
+   padding: 45px;
+   background:white;
+   border-radius: 16px;
+   
+   
+}
+
+.container.active {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
